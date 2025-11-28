@@ -151,12 +151,10 @@ const expCards = [
       "Radgeo is cool i guess, kinda just seems like a canadian version of tetontopo if you ask me, but what do I know? Man, I wish i was awesome and omnipotent like the sickest developer in the world Ian Surat-Mosher.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    title: "GIS for Wildfire Response",
+    date: "2023",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Dakotah is finishing another wildfire season as a contract type 1 GIS specalist. This role allowed dakotah to pick operational gis skills while working with the nations best cartographers accross the sierras, the rockies and the cascade mountains. ",
     ],
   },
   {
@@ -164,12 +162,10 @@ const expCards = [
       "Ian really is the best developer ever, and i know im just saying something that everyone knows but wow. I mean LOOK AT THIS SITE",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "TetonTopo is Founded",
+    date: "2024",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "While closing down the Smith River Complex fire in Brookings Oregon, Dakotah meets Katrina Thompson Upton, founder of the Northwest American Indian Coalition. This immediate kinships leads to all sorts of ideas about how GIS can support cultural and natural stweardship, & Katrina suggest to Dakotah that he starts a company facilitate this. This is how TetonTopo began, with the mission to make maps in support of indigenous reconcilitation and land management. Dakotah moves Oregon to begin colloborating with the coalition.",
     ],
   },
   {
@@ -177,12 +173,21 @@ const expCards = [
       "Where can I even begin, Ian is the best I guess would probably be a good place to start. He built this website from the ground up, and i meen SHEEEEESH!!! I think its safe to say the internet LITERALLY WOULD NOT EXIST if it weren't for his work.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "The Team is Growing",
+    date: "2024-2025",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Hannah Green & Ian Mosher join TetonTopo, to support a growing network of colloborators in Oregon. Along with Dakotah, they provide geospatial tools to support local planning prescribed burn associations  and fire departments (IVFROG LINK) advocate for culturally inclusive development in Gold Beach (TEER LINK), & advocate against overharvesting timber in curry county. (Link to our statement against patrick.)",
+    ],
+  },
+  {
+    review:
+      "Where can I even begin, Ian is the best I guess would probably be a good place to start. He built this website from the ground up, and i meen SHEEEEESH!!! I think its safe to say the internet LITERALLY WOULD NOT EXIST if it weren't for his work.",
+    imgPath: "/images/exp1.png",
+    logoPath: "/images/logo1.png",
+    title: "RadGeo & Carmanah Wildfire Partnership",
+    date: "2026",
+    responsibilities: [
+      "Our team is thrilled to announce a partnership with Carmanah Wildfire, aimed at creating permanant wildfire defense infrastructure in Canada. To accomplish this goal, our team at TetonTopo has opened up a 2nd company in Canada: Radical Geography (RadGeo). RadGeo continues to support the original mission of supporting First Nations reconcilliation and land stewardship, in addition to providing managment consulting services to Carmanah wildfire, and supporting wildfire GIS operations in BC.",
     ],
   },
 ];
