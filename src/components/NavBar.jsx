@@ -19,7 +19,8 @@ const NavBar = () => {
     <header className={`navbar ${scrolled ? "scrolled" : "not-scrolled"}`}>
       <div className="inner">
         <a className="logo" href="#hero">
-          RadGEO | Radical Geography
+          <span className="logo-accent">Rad</span>ical{" "}
+          <span className="logo-accent">Geo</span>graphy
         </a>
 
         <nav className="desktop">

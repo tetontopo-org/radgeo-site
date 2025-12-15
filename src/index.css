@@ -322,6 +322,11 @@ section {
   }
 }
 
+/* Logo accent color for parts of the word */
+.logo-accent {
+  color: #d62828;
+}
+
 /* Hero text slider starts */
 .slide {
   display: inline-block;

@@ -74,18 +74,18 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Mission Alligned By Design",
+    desc: "We partner with organizations doing meaningful work and we build tools that support it.",
   },
   {
-    imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    imgPath: "/images/map.png",
+    title: "Modern GIS, Minus the Bloat",
+    desc: "No legacy workflows. No busywork. Just fast, clean, effective spatial solutions.",
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    title: "Fast Turnarounds You Can Trust",
+    desc: "Quick doesn’t mean sloppy. We deliver on time, every time, with clarity and care.",
   },
 ];
 
@@ -147,47 +147,50 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review:
-      "Radgeo is cool i guess, kinda just seems like a canadian version of tetontopo if you ask me, but what do I know? Man, I wish i was awesome and omnipotent like the sickest developer in the world Ian Surat-Mosher.",
-    imgPath: "/images/exp1.png",
+    review: "",
+    imgPath: "/images/project1.png",
     logoPath: "/images/logo1.png",
     title: "GIS for Wildfire Response",
+    date: "2022 and Earlier",
+    responsibilities: [
+      "Dakotah worked multiple wildfire seasons as a contract Type 1 GIS Specialist, supporting large fire incidents across the Sierra Nevada, Rocky Mountains, and Cascade Range. This work built a deep operational foundation in incident mapping, data management, and real-time decision support, alongside some of the most experienced cartographers and GIS professionals in wildfire response.",
+      "These seasons shaped a practical, no-nonsense approach to GIS: fast, accurate, and built for high-stakes environments.",
+    ],
+  },
+  {
+    review: "",
+    imgPath: "/images/project1.png",
+    logoPath: "/images/logo2.png",
+    title: "Partnership with the Northwest American Indian Coalition",
     date: "2023",
     responsibilities: [
-      "Dakotah is finishing another wildfire season as a contract type 1 GIS specalist. This role allowed dakotah to pick operational gis skills while working with the nations best cartographers accross the sierras, the rockies and the cascade mountains. ",
+      "While supporting operations on the Smith River Complex Fire in Brookings, Oregon, Dakotah met Katrina Thompson Upton, founder of the Northwest American Indian Coalition (NAIC). That connection quickly evolved into a shared vision for how GIS could better support cultural stewardship, Indigenous sovereignty, and land management.",
+      "At NAIC’s encouragement, Dakotah founded TetonTopo with a mission centered on reconciliation, community-led mapping, and applied geospatial tools for real-world land management challenges. Dakotah relocated to Oregon to begin close collaboration with NAIC and regional partners.",
     ],
   },
   {
-    review:
-      "Ian really is the best developer ever, and i know im just saying something that everyone knows but wow. I mean LOOK AT THIS SITE",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "TetonTopo is Founded",
+    review: "",
+    imgPath: "/images/project1.png",
+    logoPath: "/images/logo3.png",
+    title: "The Team Grows",
     date: "2024",
     responsibilities: [
-      "While closing down the Smith River Complex fire in Brookings Oregon, Dakotah meets Katrina Thompson Upton, founder of the Northwest American Indian Coalition. This immediate kinships leads to all sorts of ideas about how GIS can support cultural and natural stweardship, & Katrina suggest to Dakotah that he starts a company facilitate this. This is how TetonTopo began, with the mission to make maps in support of indigenous reconcilitation and land management. Dakotah moves Oregon to begin colloborating with the coalition.",
+      "As project demand expanded, Hannah Green and Ian Surat-Mosher joined TetonTopo, strengthening the team’s technical and creative capacity. Together, the team supported a growing network of collaborators across southwest Oregon, delivering geospatial tools for:",
+      "Prescribed burn planning with local fire departments and burn associations",
+      "Community-led land use planning in Gold Beach",
+      "Forest advocacy and analysis related to timber harvest and landscape resilience in Curry County",
+      "This period marked TetonTopo’s transition from a solo practice into a collaborative, values-driven geospatial studio.",
     ],
   },
   {
-    review:
-      "Where can I even begin, Ian is the best I guess would probably be a good place to start. He built this website from the ground up, and i meen SHEEEEESH!!! I think its safe to say the internet LITERALLY WOULD NOT EXIST if it weren't for his work.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "The Team is Growing",
-    date: "2024-2025",
-    responsibilities: [
-      "Hannah Green & Ian Mosher join TetonTopo, to support a growing network of colloborators in Oregon. Along with Dakotah, they provide geospatial tools to support local planning prescribed burn associations  and fire departments (IVFROG LINK) advocate for culturally inclusive development in Gold Beach (TEER LINK), & advocate against overharvesting timber in curry county. (Link to our statement against patrick.)",
-    ],
-  },
-  {
-    review:
-      "Where can I even begin, Ian is the best I guess would probably be a good place to start. He built this website from the ground up, and i meen SHEEEEESH!!! I think its safe to say the internet LITERALLY WOULD NOT EXIST if it weren't for his work.",
-    imgPath: "/images/exp1.png",
+    review: "",
+    imgPath: "/images/project1.png",
     logoPath: "/images/logo1.png",
     title: "RadGeo & Carmanah Wildfire Partnership",
-    date: "2026",
+    date: "2025",
     responsibilities: [
-      "Our team is thrilled to announce a partnership with Carmanah Wildfire, aimed at creating permanant wildfire defense infrastructure in Canada. To accomplish this goal, our team at TetonTopo has opened up a 2nd company in Canada: Radical Geography (RadGeo). RadGeo continues to support the original mission of supporting First Nations reconcilliation and land stewardship, in addition to providing managment consulting services to Carmanah wildfire, and supporting wildfire GIS operations in BC.",
+      "RadGEO entered a partnership with Carmanah Wildfire to support the development of permanent wildfire defense infrastructure in Canada. To support this work, the team launched Radical Geography (RadGEO) as a Canada-based sister company to TetonTopo.",
+      "RadGEO continues the core mission of reconciliation and land stewardship while expanding into wildfire operations support, GIS systems design, and management consulting for large-scale fire resilience projects across British Columbia and beyond.",
     ],
   },
 ];

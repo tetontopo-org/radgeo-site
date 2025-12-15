@@ -95,16 +95,16 @@ const ExperienceSection = () => {
       className="w-full md:mt-40 mt-20 section-padding xl:px-0"
     >
       <div className="w-full h-full md:px-20 px-5">
-        <TitleHeader title="Our Experience" sub="🎅🏽 Something Subtitley" />
+        <TitleHeader title="Our Experience" />
 
         <div className="mt-32 relative">
           <div className="relative z-50 xl:space-y-32 space-y-10">
             {expCards.map((card, index) => (
               <div key={card.title} className="exp-card-wrapper">
                 <div className="xl:w-2/6">
-                  <GlowCard card={card} index={index}>
+                  <GlowCard card={card} index={index} showStars={false}>
                     <div>
-                      <img src={card.imgPath} alt={card.title} />
+                      <img src="/images/project1.png" alt={card.title} />
                     </div>
                   </GlowCard>
                 </div>
@@ -121,10 +121,8 @@ const ExperienceSection = () => {
                       <div>
                         <h1 className="font-semibold text-3xl">{card.title}</h1>
                         <p className="my-5 text-white-50">📅 {card.date}</p>
-                        <p className="text-[#839cb5] italic">
-                          Responsibilities
-                        </p>
-                        <ul className="list-disc ms-5 mt-5 flex flex-col gap-5 text-white-50">
+                        <p className="text-blue-50 italic">Responsibilities</p>
+                        <ul className="list-none ms-5 mt-5 flex flex-col gap-5 text-white-50">
                           {card.responsibilities.map((responsibility) => (
                             <li key={responsibility} className="text-lg">
                               {responsibility}
