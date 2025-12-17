@@ -53,43 +53,32 @@ const ShowcaseSection = () => {
   }, []);
 
   return (
-    <section id="work" ref={sectionRef} className="app-showcase">
+    <section id="mission" ref={sectionRef} className="app-showcase">
       <div className="w-full">
-        <div className="mb-8">
-          <TitleHeader title="Our Work" className="justify-center" />
-        </div>
-        <div className="showcaselayout">
+        {/* Title moved to the right-side wrapper below */}
+        <div className="showcaselayout md:flex md:items-center md:gap-12">
           {/* LEFT */}
-          <div className="first-project-wrapper" ref={project1Ref}>
+          <div className="first-project-wrapper md:w-1/2" ref={project1Ref}>
             <div className="image-wrapper">
               <img
-                src="public/images/national-RA.png"
+                src="public/images/ai-slop-maps.png"
                 alt="National Roadless Areas"
               />
             </div>
-            <div className="text-content">
-              <h2>
-                Mapping National Roadless Areas protected by the Roadless Rule
-              </h2>
-              <p className="text-white-50 md:text-xl">
-                Filler text and even more filler text. this is a description of
-                our project and noone is as cool as us.
-              </p>
-            </div>
           </div>
           {/* RIGHT */}
-          <div className="project-list-wrapper overflow-hidden">
+          <div className="project-list-wrapper overflow-hidden md:w-1/2 md:flex md:flex-col md:justify-center">
             <div className="project" ref={project2Ref}>
-              <div className="image-wrapper bg-[#ffefdb]">
-                <img src="/images/project2.png" alt="project 2 alt text" />
+              <div className="mb-8">
+                <TitleHeader title="Our Mission" className="justify-start" />
               </div>
-              <h2>This is another project we have done</h2>
-            </div>
-            <div className="project" ref={project3Ref}>
-              <div className="image-wrapper bg-[#ffe7eb]">
-                <img src="/images/project3.png" alt="project 3 alt text" />
+              <div className="text-content">
+                <p className="text-white-50 md:text-xl mb-6">
+                  RadGeo confronts the wildfire crisis by challenging colonial
+                  land practices and supporting Indigenous-led stewardship to
+                  restore healthy, fire-resilient landscapes.
+                </p>
               </div>
-              <h2>This is YET another project we have done</h2>
             </div>
           </div>
         </div>
