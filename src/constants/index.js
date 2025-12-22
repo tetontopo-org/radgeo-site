@@ -91,15 +91,15 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: "React Developer",
+    name: "React",
     imgPath: "/images/logos/react.png",
   },
   {
-    name: "Python Developer",
+    name: "Python",
     imgPath: "/images/logos/python.svg",
   },
   {
-    name: "Backend Developer",
+    name: "Backend",
     imgPath: "/images/logos/node.png",
   },
   {
@@ -112,21 +112,74 @@ const techStackImgs = [
   },
 ];
 
+ {/*
+  {
+    name: ArcPro
+    modelPath:
+    scale: 1
+    rotation: [0,0,0]
+  },
+  {
+    name: Google Earth Engine
+    modelPath:
+    scale: 1
+    rotation: [0,0,0]
+  },
+  {
+    name: Vibrant Planet
+    modelPath:
+    scale: 1
+    rotation: [0,0,0]
+  },
+  {
+    name: MapBox
+    modelPath:
+    scale: 1
+    rotation: [0,0,0]
+  },
+  {
+    name: MapLibre
+    modelPath:
+    scale: 1
+    rotation: [0,0,0]
+  },
+  {
+    name: AGOL
+    modelPath:
+    scale: 1
+    rotation: [0,0,0]
+  },
+  {
+    name: Sentinel Hub
+    modelPath:
+    scale: 1
+    rotation: [0,0,0]
+  },
+  {
+    name: Upstream Tech
+    modelPath:
+    scale: 1
+    rotation: [0,0,0]
+  }
+  
+  
+  */}
+
 const techStackIcons = [
   {
-    name: "React Developer",
+    name: "React",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
+    name: "Python",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend Developer",
+    name: "Backend",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
@@ -212,46 +265,23 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Nick Hill",
+    mentions: "Founder | Carmanah Wildfire",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "RadGeo was a valuable management consulting partner for our R&D and innovation work. They brought structure to complex ideas, translated technical concepts into decisions we could actually execute, and backed it with sharp analysis and geospatial insight. They’re collaborative, responsive, and focused on real outcomes, making the process more efficient, more grounded, and a lot more productive. Dakotah and the team are an absolute pleasure to work with.",
     imgPath: "/images/client1.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
-    review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+    name: "Alice Weston",
+    mentions: "Community Organizer | Sierra Club Oregon",
+    review: "We had a great experience working with RadGeo on a public-facing public lands mapping project. Our volunteers, supporters, and partners were all impressed with the project and found the map incredibly helpful for our advocacy efforts. We also received feedback that the map and data helped sway our local policy makers to align with our cause. In the advocacy and policy space, sometimes timelines can be crunched, and we are incredibly grateful that RadGeo was able to work with us so efficiently to get our map up and running. They were an absolute pleasure to work with, and our team plans to use them again in the future.",
     imgPath: "/images/client3.png",
   },
   {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+    name: "Katarina Thompson-Upton",
+    mentions: "Founder | NAIC",
+    review: "    “Northwest American Indian Coalition, Inc. is incredibly grateful for the invaluable services provided by Teton Topo. Their expertise in handling culturally sensitive information & creating maps to support our forestry work, has been instrumental in our efforts to manage and preserve our ancestral lands. Teton Topo not only understands the importance of cultural sensitivity but also integrates it seamlessly into their work, ensuring that our sacred sites and historical areas are respected and protected. I wholeheartedly recommend Teton Topo to other tribes looking for a company that respects and values cultural heritage. Their commitment to accuracy and their willingness to collaborate closely with us throughout the planning and mapping process has been exemplary. Teton Topo has not only been a reliable partner but has also demonstrated a genuine dedication to helping us achieve our conservation and cultural preservation goals. Working with Teton Topo has been a positive and enriching experience, and I encourage other tribes to consider them for their GIS and land management needs.",
     imgPath: "/images/client2.png",
-  },
-  {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
-    review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
-  },
-  {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
-    review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
-    imgPath: "/images/client4.png",
-  },
-  {
-    name: "Albert Flores",
-    mentions: "@albertflores",
-    review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
-    imgPath: "/images/client6.png",
   },
 ];
 

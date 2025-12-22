@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="flex flex-col justify-center md:items-start items-center">
-          <a href="/">Visit Hydrodome</a>
+          <a href="https://hydrodome-landing.netlify.app" target="_blank" rel="noopener noreferrer">Visit Hydrodome</a>
         </div>
         <div className="socials">
           {socialImgs.map((img) => (

@@ -23,6 +23,7 @@ function ScrollEarth({ scale = 1 }) {
     if (!ref.current) return;
     // smooth interpolation toward target rotation
     ref.current.rotation.y += (target.current - ref.current.rotation.y) * 0.1;
+    ref.current.position.y += (-target.current / 10 - ref.current.position.y) * 0.5;
   });
 
   return (
