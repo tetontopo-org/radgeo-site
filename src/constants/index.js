@@ -201,7 +201,7 @@ const techStackIcons = [
 const expCards = [
   {
     review: "",
-    imgPath: "/images/project1.png",
+    imgPath: "/images/exp-imgs/exp-1.png",
     logoPath: "/images/logo1.png",
     title: "GIS for Wildfire Response",
     date: "2022 and Earlier",
@@ -212,7 +212,7 @@ const expCards = [
   },
   {
     review: "",
-    imgPath: "/images/project1.png",
+    imgPath: "/images/exp-imgs/exp-2.jpg",
     logoPath: "/images/logo2.png",
     title: "Partnership with the Northwest American Indian Coalition",
     date: "2023",
@@ -223,7 +223,7 @@ const expCards = [
   },
   {
     review: "",
-    imgPath: "/images/project1.png",
+    imgPath: "/images/FireLine.png",
     logoPath: "/images/logo3.png",
     title: "The Team Grows",
     date: "2024",
@@ -237,7 +237,7 @@ const expCards = [
   },
   {
     review: "",
-    imgPath: "/images/project1.png",
+    imgPath: "/images/exp-imgs/exp-3.jpg",
     logoPath: "/images/logo1.png",
     title: "RadGeo & Carmanah Wildfire Partnership",
     date: "2025",

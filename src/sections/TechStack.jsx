@@ -28,8 +28,7 @@ const TechStack = () => {
     <div id="skills" className="flex-center section-padding">
       <div className="w-full h-full md:px-10 px-5">
         <TitleHeader
-          title="Our Preferred Tech Stack"
-          // sub="Subtitles Are For Nerds"
+          title="Our Services"
         />
 
         <div className="tech-grid">
