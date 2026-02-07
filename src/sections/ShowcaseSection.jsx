@@ -61,7 +61,7 @@ const ShowcaseSection = () => {
           <div className="first-project-wrapper md:w-1/2" ref={project1Ref}>
             <div className="image-wrapper">
               <img
-                src="public/images/ai-slop-maps.png"
+                src="public/images/exp-imgs/exp-1.png"
                 alt="National Roadless Areas"
               />
             </div>

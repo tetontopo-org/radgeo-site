@@ -202,7 +202,7 @@ const expCards = [
   {
     review: "",
     imgPath: "/images/exp-imgs/exp-1.png",
-    logoPath: "/images/logo1.png",
+    logoPath: "/images/gis_50x50.png",
     title: "GIS for Wildfire Response",
     date: "2022 and Earlier",
     responsibilities: [
@@ -213,7 +213,7 @@ const expCards = [
   {
     review: "",
     imgPath: "/images/exp-imgs/exp-2.jpg",
-    logoPath: "/images/logo2.png",
+    logoPath: "/images/handshake_50x50.png",
     title: "Partnership with the Northwest American Indian Coalition",
     date: "2023",
     responsibilities: [
@@ -224,7 +224,7 @@ const expCards = [
   {
     review: "",
     imgPath: "/images/FireLine.png",
-    logoPath: "/images/logo3.png",
+    logoPath: "/images/team_50x50.png",
     title: "The Team Grows",
     date: "2024",
     responsibilities: [
@@ -238,7 +238,7 @@ const expCards = [
   {
     review: "",
     imgPath: "/images/exp-imgs/exp-3.jpg",
-    logoPath: "/images/logo1.png",
+    logoPath: "/images/flame_50x50.png",
     title: "RadGeo & Carmanah Wildfire Partnership",
     date: "2025",
     responsibilities: [
@@ -250,8 +250,8 @@ const expCards = [
 
 const expLogos = [
   {
-    name: "logo1",
-    imgPath: "/images/logo1.png",
+    name: "gislogo",
+    imgPath: "/images/gis_50x50.png",
   },
   {
     name: "logo2",
@@ -280,7 +280,7 @@ const testimonials = [
   {
     name: "Katarina Thompson-Upton",
     mentions: "Founder | NAIC",
-    review: "    “Northwest American Indian Coalition, Inc. is incredibly grateful for the invaluable services provided by Teton Topo. Their expertise in handling culturally sensitive information & creating maps to support our forestry work, has been instrumental in our efforts to manage and preserve our ancestral lands. Teton Topo not only understands the importance of cultural sensitivity but also integrates it seamlessly into their work, ensuring that our sacred sites and historical areas are respected and protected. I wholeheartedly recommend Teton Topo to other tribes looking for a company that respects and values cultural heritage. Their commitment to accuracy and their willingness to collaborate closely with us throughout the planning and mapping process has been exemplary. Teton Topo has not only been a reliable partner but has also demonstrated a genuine dedication to helping us achieve our conservation and cultural preservation goals. Working with Teton Topo has been a positive and enriching experience, and I encourage other tribes to consider them for their GIS and land management needs.",
+    review: "RadGeo / TetonTopo combines cutting-edge geospatial expertise with a respectful, collaborative approach. They supported the mapping of critical spring and headwater systems and helped document historic Indigenous allotments - work that requires both technical precision and cultural understanding. Their responsiveness and problem-solving mindset make them an outstanding partner, and we look forward to continuing a long-term relationship with RadGeo for our GIS needs, including wildfire risk reduction and cultural stewardship work",
     imgPath: "/images/client2.png",
   },
 ];

@@ -4,7 +4,7 @@ const Button = ({ text, className, id }) => {
       onClick={(e) => {
         e.preventDefault();
 
-        const target = document.getElementById("mission");
+        const target = document.getElementById("experience");
 
         if (target && id) {
           const offset = window.innerHeight * 0.01;
