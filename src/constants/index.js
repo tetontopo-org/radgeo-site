@@ -1,10 +1,10 @@
 const navLinks = [
   {
-    name: "Work",
-    link: "#work",
+    name: "Mission",
+    link: "#mission",
   },
   {
-    name: "Experience",
+    name: "Timeline",
     link: "#experience",
   },
   {
@@ -91,107 +91,54 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: "React",
+    name: "GIS Analysis",
     imgPath: "/images/logos/react.png",
   },
   {
-    name: "Python",
+    name: "Mapping",
     imgPath: "/images/logos/python.svg",
   },
   {
-    name: "Backend",
+    name: "Wildfire Modeling",
     imgPath: "/images/logos/node.png",
   },
   {
-    name: "Interactive Developer",
+    name: "Management Consulting",
     imgPath: "/images/logos/three.png",
   },
   {
-    name: "Project Manager",
+    name: "Web Development",
     imgPath: "/images/logos/git.svg",
   },
 ];
 
- {/*
-  {
-    name: ArcPro
-    modelPath:
-    scale: 1
-    rotation: [0,0,0]
-  },
-  {
-    name: Google Earth Engine
-    modelPath:
-    scale: 1
-    rotation: [0,0,0]
-  },
-  {
-    name: Vibrant Planet
-    modelPath:
-    scale: 1
-    rotation: [0,0,0]
-  },
-  {
-    name: MapBox
-    modelPath:
-    scale: 1
-    rotation: [0,0,0]
-  },
-  {
-    name: MapLibre
-    modelPath:
-    scale: 1
-    rotation: [0,0,0]
-  },
-  {
-    name: AGOL
-    modelPath:
-    scale: 1
-    rotation: [0,0,0]
-  },
-  {
-    name: Sentinel Hub
-    modelPath:
-    scale: 1
-    rotation: [0,0,0]
-  },
-  {
-    name: Upstream Tech
-    modelPath:
-    scale: 1
-    rotation: [0,0,0]
-  }
-  
-  
-  */}
-
 const techStackIcons = [
   {
-    name: "React",
+    name: "GIS Analysis",
     modelPath: "/models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
-    name: "Python",
+    name: "Mapping",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend",
+    name: "Wildfire Modeling",
     modelPath: "/models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
+    name: "Management Consulting",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: "Web Development",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
@@ -274,13 +221,15 @@ const testimonials = [
   {
     name: "Alice Weston",
     mentions: "Community Organizer | Sierra Club Oregon",
-    review: "We had a great experience working with RadGeo on a public-facing public lands mapping project. Our volunteers, supporters, and partners were all impressed with the project and found the map incredibly helpful for our advocacy efforts. We also received feedback that the map and data helped sway our local policy makers to align with our cause. In the advocacy and policy space, sometimes timelines can be crunched, and we are incredibly grateful that RadGeo was able to work with us so efficiently to get our map up and running. They were an absolute pleasure to work with, and our team plans to use them again in the future.",
+    review:
+      "We had a great experience working with RadGeo on a public-facing public lands mapping project. Our volunteers, supporters, and partners were all impressed with the project and found the map incredibly helpful for our advocacy efforts. We also received feedback that the map and data helped sway our local policy makers to align with our cause. In the advocacy and policy space, sometimes timelines can be crunched, and we are incredibly grateful that RadGeo was able to work with us so efficiently to get our map up and running. They were an absolute pleasure to work with, and our team plans to use them again in the future.",
     imgPath: "/images/client3.png",
   },
   {
     name: "Katarina Thompson-Upton",
     mentions: "Founder | NAIC",
-    review: "RadGeo / TetonTopo combines cutting-edge geospatial expertise with a respectful, collaborative approach. They supported the mapping of critical spring and headwater systems and helped document historic Indigenous allotments - work that requires both technical precision and cultural understanding. Their responsiveness and problem-solving mindset make them an outstanding partner, and we look forward to continuing a long-term relationship with RadGeo for our GIS needs, including wildfire risk reduction and cultural stewardship work",
+    review:
+      "RadGeo / TetonTopo combines cutting-edge geospatial expertise with a respectful, collaborative approach. They supported the mapping of critical spring and headwater systems and helped document historic Indigenous allotments - work that requires both technical precision and cultural understanding. Their responsiveness and problem-solving mindset make them an outstanding partner, and we look forward to continuing a long-term relationship with RadGeo for our GIS needs, including wildfire risk reduction and cultural stewardship work",
     imgPath: "/images/client2.png",
   },
 ];
