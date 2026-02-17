@@ -41,14 +41,14 @@ const ShowcaseSection = () => {
             trigger: card,
             start: "top bottom -=100",
           },
-        }
+        },
       );
     });
 
     gsap.fromTo(
       sectionRef.current,
       { opacity: 0 },
-      { opacity: 1, duration: 1.5 }
+      { opacity: 1, duration: 1.5 },
     );
   }, []);
 
@@ -66,20 +66,9 @@ const ShowcaseSection = () => {
               />
             </div>
           </div>
-          {/* RIGHT */}
+          {/* RIGHT: mission removed (moved to Hero). Keep an empty element for GSAP refs. */}
           <div className="project-list-wrapper overflow-hidden md:w-1/2 md:flex md:flex-col md:justify-center">
-            <div className="project" ref={project2Ref}>
-              <div className="mb-8">
-                <TitleHeader title="Our Mission" className="justify-start" />
-              </div>
-              <div className="text-content">
-                <p className="text-white-50 md:text-xl mb-6">
-                  RadGeo confronts the wildfire crisis by challenging colonial
-                  land practices and supporting Indigenous-led stewardship to
-                  restore healthy, fire-resilient landscapes.
-                </p>
-              </div>
-            </div>
+            <div className="project" ref={project2Ref} aria-hidden="true" />
           </div>
         </div>
       </div>

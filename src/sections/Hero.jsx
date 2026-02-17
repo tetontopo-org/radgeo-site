@@ -3,6 +3,7 @@ import { words } from "../constants/index.js";
 import Button from "../components/Button.jsx";
 import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
 import AnimatedCounter from "../components/AnimatedCounter.jsx";
+import TitleHeader from "../components/TitleHeader";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
@@ -11,7 +12,7 @@ const Hero = () => {
     gsap.fromTo(
       ".hero-text h1",
       { y: 50, opacity: 0 },
-      { y: 0, opacity: 1, stagger: 0.2, duration: 1, ease: "power2.inOut" }
+      { y: 0, opacity: 1, stagger: 0.2, duration: 1, ease: "power2.inOut" },
     );
   });
 
@@ -49,9 +50,6 @@ const Hero = () => {
               <h1>Into Real Maps</h1>
               <h1>That Deliver Results</h1>
             </div>
-            <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-              At RadGEO we practice radical geography
-            </p>
             <Button
               className="md:w-80 md:h-16 w-60 h-12"
               id="button"
@@ -66,6 +64,17 @@ const Hero = () => {
             <HeroExperience />
           </div>
         </figure>
+        {/* Mission statement - positioned under the globe and readable */}
+        <div className="hero-mission">
+          <div className="md:w-3/5 w-full text-center">
+            <TitleHeader title="Our Mission" className="justify-end" />
+            <p className="text-white-50 md:text-lg mt-3">
+              RadGeo confronts the wildfire crisis by challenging colonial land
+              practices and supporting Indigenous-led stewardship to restore
+              healthy, fire-resilient landscapes.
+            </p>
+          </div>
+        </div>
       </div>
       {/*<AnimatedCounter />*/}
     </section>
