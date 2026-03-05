@@ -254,7 +254,7 @@ section {
   }
 
   .timeline-logo {
-    @apply md:size-20 size-10 flex-none rounded-full flex justify-center items-center md:-translate-y-7 border border-black-50 bg-black-100;
+    @apply md:size-20 size-100 flex-none rounded-full flex justify-center items-center md:-translate-y-7 border-black-50 bg-black-100;
   }
 
   .exp-card-wrapper {
@@ -381,10 +381,10 @@ section {
   background: linear-gradient(
     0deg,
     rgba(69, 222, 196, 0) 0%,
-    #e3aa24 25%,
-    #ff5252 37.51%,
-    #db0032 62.83%,
-    #ff6c52 92.91%
+    #ed0e60 25%,
+    #94032e 37.51%,
+    #900535 62.83%,
+    #ff4426 92.91%
   );
 }
 

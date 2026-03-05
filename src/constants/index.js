@@ -145,7 +145,7 @@ const expCards = [
   {
     review: "",
     imgPath: "/images/exp-imgs/exp-1.png",
-    logoPath: "/images/gis_50x50.png",
+    logoPath: "/images/timeline/grad-4.png",
     title: "GIS for Wildfire Response",
     date: "2022 and Earlier",
     responsibilities: [
@@ -156,7 +156,7 @@ const expCards = [
   {
     review: "",
     imgPath: "/images/exp-imgs/exp-2.jpg",
-    logoPath: "/images/handshake_50x50.png",
+    logoPath: "/images/timeline/grad-3.png",
     title: "Partnership with the Northwest American Indian Coalition",
     date: "2023",
     responsibilities: [
@@ -166,8 +166,8 @@ const expCards = [
   },
   {
     review: "",
-    imgPath: "/images/FireLine.png",
-    logoPath: "/images/team_50x50.png",
+    imgPath: "/images/exp-imgs/exp-3.png",
+    logoPath: "/images/timeline/grad-2.png",
     title: "The Team Grows",
     date: "2024",
     responsibilities: [
@@ -180,8 +180,8 @@ const expCards = [
   },
   {
     review: "",
-    imgPath: "/images/exp-imgs/exp-3.jpg",
-    logoPath: "/images/flame_50x50.png",
+    imgPath: "/images/exp-imgs/exp-4.jpg",
+    logoPath: "/images/timeline/grad-1.png",
     title: "RadGeo & Carmanah Wildfire Partnership",
     date: "2025",
     responsibilities: [
@@ -212,21 +212,21 @@ const testimonials = [
     mentions: "Founder | Carmanah Wildfire",
     review:
       "RadGeo was a valuable management consulting partner for our R&D and innovation work. They brought structure to complex ideas, translated technical concepts into decisions we could actually execute, and backed it with sharp analysis and geospatial insight. They’re collaborative, responsive, and focused on real outcomes, making the process more efficient, more grounded, and a lot more productive. Dakotah and the team are an absolute pleasure to work with.",
-    imgPath: "/images/client1.png",
+    imgPath: "/images/clients/nick-hill.png",
   },
   {
     name: "Alice Weston",
     mentions: "Community Organizer | Sierra Club Oregon",
     review:
       "We had a great experience working with RadGeo on a public-facing public lands mapping project. Our volunteers, supporters, and partners were all impressed with the project and found the map incredibly helpful for our advocacy efforts. We also received feedback that the map and data helped sway our local policy makers to align with our cause. In the advocacy and policy space, sometimes timelines can be crunched, and we are incredibly grateful that RadGeo was able to work with us so efficiently to get our map up and running. They were an absolute pleasure to work with, and our team plans to use them again in the future.",
-    imgPath: "/images/client3.png",
+    imgPath: "/images/clients/alice-weston.png",
   },
   {
     name: "Katarina Thompson-Upton",
     mentions: "Founder | NAIC",
     review:
       "RadGeo / TetonTopo combines cutting-edge geospatial expertise with a respectful, collaborative approach. They supported the mapping of critical spring and headwater systems and helped document historic Indigenous allotments - work that requires both technical precision and cultural understanding. Their responsiveness and problem-solving mindset make them an outstanding partner, and we look forward to continuing a long-term relationship with RadGeo for our GIS needs, including wildfire risk reduction and cultural stewardship work",
-    imgPath: "/images/client2.png",
+    imgPath: "/images/clients/katarina-thompson-upton.png",
   },
 ];
 
