@@ -65,7 +65,7 @@ const Hero = () => {
           </div>
         </figure>
         {/* Mission statement - positioned under the globe and readable */}
-        <div className="hero-mission">
+        {/* <div className="hero-mission">
           <div className="md:w-3/5 w-full text-center">
             <TitleHeader title="Our Mission" className="justify-end" />
             <p className="text-white-50 md:text-lg mt-3">
@@ -74,7 +74,7 @@ const Hero = () => {
               healthy, fire-resilient landscapes.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
       {/*<AnimatedCounter />*/}
     </section>

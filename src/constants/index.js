@@ -33,37 +33,34 @@ const counterItems = [
 
 const logoIconsList = [
   {
-    imgPath: "/images/logos/company-logo-1.png",
+    imgPath: "/images/logos/maplibre-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-2.png",
+    imgPath: "/images/logos/vibrant-planet-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-3.png",
+    imgPath: "/images/logos/mapbox-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-4.png",
+    imgPath: "/images/logos/esri-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-5.png",
+    imgPath: "/images/logos/planet-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-6.png",
+    imgPath: "/images/logos/maplibre-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-7.png",
+    imgPath: "/images/logos/vibrant-planet-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-8.png",
+    imgPath: "/images/logos/mapbox-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-9.png",
+    imgPath: "/images/logos/esri-logo.png",
   },
   {
-    imgPath: "/images/logos/company-logo-10.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-11.png",
+    imgPath: "/images/logos/planet-logo.png",
   },
 ];
 
@@ -88,23 +85,23 @@ const abilities = [
 const techStackImgs = [
   {
     name: "GIS Analysis",
-    imgPath: "/images/logos/react.png",
+    imgPath: "/images/logos/gis.png",
   },
   {
     name: "Mapping",
-    imgPath: "/images/logos/python.svg",
+    imgPath: "/images/logos/map.png",
   },
   {
     name: "Wildfire Modeling",
-    imgPath: "/images/logos/node.png",
+    imgPath: "/images/logos/data.png",
   },
   {
     name: "Management Consulting",
-    imgPath: "/images/logos/three.png",
+    imgPath: "/images/logos/management.png",
   },
   {
     name: "Web Development",
-    imgPath: "/images/logos/git.svg",
+    imgPath: "/images/logos/programming.png",
   },
 ];
 
@@ -208,11 +205,11 @@ const expLogos = [
 
 const testimonials = [
   {
-    name: "Nick Hill",
-    mentions: "Founder | Carmanah Wildfire",
+    name: "Katrina Thompson-Upton",
+    mentions: "Founder | NAIC",
     review:
-      "RadGeo was a valuable management consulting partner for our R&D and innovation work. They brought structure to complex ideas, translated technical concepts into decisions we could actually execute, and backed it with sharp analysis and geospatial insight. They’re collaborative, responsive, and focused on real outcomes, making the process more efficient, more grounded, and a lot more productive. Dakotah and the team are an absolute pleasure to work with.",
-    imgPath: "/images/clients/nick-hill.png",
+      "RadGeo / TetonTopo combines cutting-edge geospatial expertise with a respectful, collaborative approach. They supported the mapping of critical spring and headwater systems and helped document historic Indigenous allotments - work that requires both technical precision and cultural understanding. Their responsiveness and problem-solving mindset make them an outstanding partner, and we look forward to continuing a long-term relationship with RadGeo for our GIS needs, including wildfire risk reduction and cultural stewardship work",
+    imgPath: "/images/clients/katarina-thompson-upton.png",
   },
   {
     name: "Alice Weston",
@@ -222,11 +219,11 @@ const testimonials = [
     imgPath: "/images/clients/alice-weston.png",
   },
   {
-    name: "Katarina Thompson-Upton",
-    mentions: "Founder | NAIC",
+    name: "Nick Hill",
+    mentions: "Founder | Carmanah Wildfire",
     review:
-      "RadGeo / TetonTopo combines cutting-edge geospatial expertise with a respectful, collaborative approach. They supported the mapping of critical spring and headwater systems and helped document historic Indigenous allotments - work that requires both technical precision and cultural understanding. Their responsiveness and problem-solving mindset make them an outstanding partner, and we look forward to continuing a long-term relationship with RadGeo for our GIS needs, including wildfire risk reduction and cultural stewardship work",
-    imgPath: "/images/clients/katarina-thompson-upton.png",
+      "RadGeo was a valuable management consulting partner for our R&D and innovation work. They brought structure to complex ideas, translated technical concepts into decisions we could actually execute, and backed it with sharp analysis and geospatial insight. They’re collaborative, responsive, and focused on real outcomes, making the process more efficient, more grounded, and a lot more productive. Dakotah and the team are an absolute pleasure to work with.",
+    imgPath: "/images/clients/nick-hill.png",
   },
 ];
 
